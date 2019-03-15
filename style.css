@@ -95,6 +95,8 @@ footer{
 }
 
 .PortfolioShowcaseText{
+    position: relative;
+    bottom: 40px;
     z-index: 1;
     background-color: #4AAAA5;
 }
@@ -110,19 +112,19 @@ footer{
     margin-bottom: 20px;
 }
 
-a:link{
+.navlink:link{
     color: gray;
     text-decoration-line: none;
 }
-a:hover{
+.navlink:hover{
     color: gray;
     text-decoration-line: none;
 }
-a:visited{
+.navlink:visited{
     color: gray;
     text-decoration-line: none;
 }
-a:focus{
+.navlink:focus{
     color: gray;
     text-decoration-line: none;
 }
